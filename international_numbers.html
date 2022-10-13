@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Select your international country code:
+        <select id="b" onclick="myFunction()">
+          <option value="India">+91</option>
+          <option value="United States of America">+11</option>
+          <option value="France">+33</option>
+          <option value="United Kingdom">+44</option>
+        </select>
+    </form>
+      <br>
+      <input type="text" id="a" placeholder="India"></p>
+    <script>
+       function myFunction() {
+  var x = document.getElementById("b").value;
+  document.getElementById("a").value = x;
+ }
+    </script>
+</body>
+</html>
